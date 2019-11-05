@@ -45,10 +45,6 @@ function doneTyping() {
             limit,
         },
         success: data => successFunc(data),
-        // error: function (xhr, ajaxOptions, thrownError) {
-        //     alert(xhr.status);
-        //     alert(thrownError);
-        // }
         statusCode: {
             400: function () {
                 alert('Errors in specified keywords and/or language.');
