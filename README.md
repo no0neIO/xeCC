@@ -1,2 +1,2 @@
-# xeCC
-xeCC
+# Junior Frontend Code Challenge
+
