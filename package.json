@@ -1,0 +1,26 @@
+{
+  "name": "xecc",
+  "version": "1.0.0",
+  "description": "xe.gr frontend autocomplete code challenge ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "",
+    "stop": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/no0neIO/xeCC.git"
+  },
+  "keywords": [
+    "autocomplete",
+    "location api",
+    "xe.gr"
+  ],
+  "author": "no0ne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/no0neIO/xeCC/issues"
+  },
+  "homepage": "https://github.com/no0neIO/xeCC#readme"
+}

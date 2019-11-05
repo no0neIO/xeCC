@@ -62,7 +62,7 @@ function doneTyping() {
 function successFunc(data) {
     if (data.entries.length) { // an ta entries einai panw apo 0
         $.each(data.entries, (index, item) => { // gia kathe entry prosthese to onoma
-            resultsList.append(`<div class="result" onclick="">${item.name}</div>`);
+            resultsList.append(`<div class="result">${item.name}</div>`);
         });
         $('.result').click(function () { // se click kapiou result, vale to sto search text kai kripse ta results
             searchText.val(this.innerText);

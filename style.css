@@ -58,7 +58,6 @@ button:hover{
 }
 
 .results{
-    border: 3px solid red;
     grid-column: 1/2;
     font-size: 1.3em;
     border: 1px solid blue;
@@ -71,7 +70,6 @@ button:hover{
     border: 1px solid rgba(55, 163, 212, 0.3);
     font-family: monospace;
     grid-column: 2/3;
-
 }
 
 .result:hover{
