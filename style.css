@@ -1,0 +1,122 @@
+#logo img{
+    height: 200px;
+    width: 200px;
+}
+
+h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    display: none;
+}
+
+.containerGrid{
+    padding-left: 20%;
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+}
+
+.psaximo{
+    /* margin-left: 50px; */
+    border: 3px solid black;
+    display: flex;
+    align-self: flex-end;
+    padding:20px;
+    align-items: flex-end;
+    background: #ffb800;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #eaa502;
+}
+
+#psaxe{
+    padding-right: 10px;
+}
+
+input{
+    width: 40vw;
+    height: 5vh;
+    border-radius: 6px;
+    border: 1px solid #eaa502;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    width: 10vw;
+    height: 5vh;
+    font-size: 1.1em;
+    background: #ffd600;
+    border-radius: 6px;
+    border: 1px solid #eaa502;
+    transition: 0.3s;
+}
+
+button:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.results{
+    border: 3px solid red;
+    grid-column: 1/2;
+    font-size: 1.3em;
+    border: 1px solid blue;
+    border-radius: 6px;
+    display: none;
+}
+
+.result{
+    display: flex;
+    border: 1px solid rgba(55, 163, 212, 0.3);
+    font-family: monospace;
+    grid-column: 2/3;
+
+}
+
+.result:hover{
+        background-color: rgba(55, 163, 212, 0.3);
+        cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    
+    .logo{
+        text-align: center;
+    }
+
+    .logo img{
+        height: 150px!important;
+        width: 150px!important;
+    }
+
+    .containerGrid{
+        padding-left: 0;
+        grid-template-columns: 2fr;
+    }
+
+    input{
+        width: 60vw;
+    }
+
+    button{
+        width: 20vw;
+    }
+
+    h3{
+        font-size: 0.7em;
+        display: inline;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
