@@ -1,6 +1,6 @@
 # Junior Frontend Code Challenge
 
-- Just copy this folder inside your web server's Document-Root (Apache, IIS, nginx) eg. htdocs
+- Copy this folder inside your web server's Document-Root (Apache, IIS, nginx) eg. htdocs
 - In order to access the web application, open your web server's URL followed by /xeCC
 
 ## Features
